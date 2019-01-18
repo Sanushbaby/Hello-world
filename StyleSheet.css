@@ -1,0 +1,49 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: Lobster;
+    font-size: 16px;
+}
+
+
+.img-layer {
+    width: 60%;
+    height: 110%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: url('images/achievement-brainstorming-branding-1162968.jpg');
+    background-size: cover;
+    z-index: 0;
+}
+
+.img layer .home-content {
+    margin-top: 60%;
+    width: 120%;
+    margin-left: 40%;
+}
+
+.site-header {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+
+.nav-link {
+    color: black !important;
+}
+
